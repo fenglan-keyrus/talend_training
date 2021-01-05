@@ -72,6 +72,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_LeUzcE9sEeu-A4ATkO9ZBA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -131,5 +135,9 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_LeUzcE9sEeu-A4ATkO9ZBA - ADMIN_LOAD_CONTROL",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
