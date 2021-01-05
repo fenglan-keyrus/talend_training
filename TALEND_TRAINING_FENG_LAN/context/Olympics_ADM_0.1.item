@@ -1,24 +1,41 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_TQz7gE9wEeu-A4ATkO9ZBA" xmi:version="2.0">
-  <contextParameter comment="" name="Olympics_ADM_authenticationType" prompt="Olympics_ADM_authenticationType?" promptNeeded="false" type="id_String" value="BASIC" xmi:id="_TQz7gU9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_account" prompt="Olympics_ADM_account?" promptNeeded="false" type="id_String" value="Keyrus" xmi:id="_TQz7gk9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_region" prompt="Olympics_ADM_region?" promptNeeded="false" type="id_String" value="AWS_US_EAST_1" xmi:id="_TQz7g09wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_loginTimeout" prompt="Olympics_ADM_loginTimeout?" promptNeeded="false" type="id_Integer" value="15" xmi:id="_TQz7hE9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_keyAlias" prompt="Olympics_ADM_keyAlias?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7hU9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_warehouse" prompt="Olympics_ADM_warehouse?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7hk9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_db" prompt="Olympics_ADM_db?" promptNeeded="false" type="id_String" value="DWH_OLYMPICS_HFL" xmi:id="_TQz7h09wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_customRegionID" prompt="Olympics_ADM_customRegionID?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7iE9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_role" prompt="Olympics_ADM_role?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7iU9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_userPassword_password" prompt="Olympics_ADM_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:twci1kRmtLamq9DtcOJnvmRz2Q0pXPpDKxCh/DJ+XpI8rPxlxYfKIw+YdxsiRnCI" xmi:id="_TQz7ik9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_jdbcParameters" prompt="Olympics_ADM_jdbcParameters?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7i09wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_schemaName" prompt="Olympics_ADM_schemaName?" promptNeeded="false" type="id_String" value="ADM" xmi:id="_TQz7jE9wEeu-A4ATkO9ZBA"/>
-  <contextParameter comment="" name="Olympics_ADM_userPassword_userId" prompt="Olympics_ADM_userPassword_userId?" promptNeeded="false" type="id_String" value="FLAN" xmi:id="_TQz7jU9wEeu-A4ATkO9ZBA"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e661e2b6-d330-4b00-b057-d7b219b19096"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yrRkE+JvL6fx8UpVOU/NXo3AYS8TqDHaxbZ9cB3MQ1nVyaZrrCa1rdkHuPzTWgPxnJBrlSOLVFsd
-pJhAmea/Aw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_23d113ea-1733-42c4-ada1-a4fd232b7500"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>u1LY1KnQB/RCcimqs3T2E+Ya+RlsxGwTScKt/hXm11ApgTAu6eVtPaUBvfnnnfqwosEPZ32IMbO/
-ApL/LxdLNw==</DigestValue></Reference></SignedInfo><SignatureValue>lrsRPbjGKegxTnk7sHGEufEklQK2GCCcGmAwWVP4p+atwcoSmYPOT3OnIUWTllRf0rK1kOJJ/MXa
-f1EyN1G+okp1Qwcz7IJBkdtovrbuqurKhIAUn7rAg36zeNcqMhsHy+h1IRug2PZ9hWES5yd4cbUP
-QkCzQAw2NTZvGo/m1P5++ymgSGtLE4X1SIpLZp/EKJip3cNkUnAOTffZo3kMVa2u6Y+nylR+QxBx
-6okJiHEYa4cOSaDTh51siQq9BE+HT4qGtM1VTw/49ftwIPX5/M6R06QzFUQXnLRhV0TRUcU5ep6/
-5eojsxEgiD7tyjf5emZ000tjfNzAlW6SshNwjw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_TQz7gE9wEeu-A4ATkO9ZBA">
+    <contextParameter comment="" name="Olympics_ADM_authenticationType" prompt="Olympics_ADM_authenticationType?" promptNeeded="false" type="id_String" value="BASIC" xmi:id="_TQz7gU9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_account" prompt="Olympics_ADM_account?" promptNeeded="false" type="id_String" value="Keyrus" xmi:id="_TQz7gk9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_region" prompt="Olympics_ADM_region?" promptNeeded="false" type="id_String" value="AWS_US_EAST_1" xmi:id="_TQz7g09wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_loginTimeout" prompt="Olympics_ADM_loginTimeout?" promptNeeded="false" type="id_Integer" value="15" xmi:id="_TQz7hE9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_keyAlias" prompt="Olympics_ADM_keyAlias?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7hU9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_warehouse" prompt="Olympics_ADM_warehouse?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7hk9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_db" prompt="Olympics_ADM_db?" promptNeeded="false" type="id_String" value="DWH_OLYMPICS_HFL" xmi:id="_TQz7h09wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_customRegionID" prompt="Olympics_ADM_customRegionID?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7iE9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_role" prompt="Olympics_ADM_role?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7iU9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_userPassword_password" prompt="Olympics_ADM_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Jvk2uuOENYIDlYwFLsw6ij6uGv3E2J77iQwnptnGFxbRx6xbkKfFpUQQMHZHnOVI" xmi:id="_TQz7ik9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_jdbcParameters" prompt="Olympics_ADM_jdbcParameters?" promptNeeded="false" type="id_String" value="" xmi:id="_TQz7i09wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_schemaName" prompt="Olympics_ADM_schemaName?" promptNeeded="false" type="id_String" value="ADM" xmi:id="_TQz7jE9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_userPassword_userId" prompt="Olympics_ADM_userPassword_userId?" promptNeeded="false" type="id_String" value="FLAN" xmi:id="_TQz7jU9wEeu-A4ATkO9ZBA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ODS" xmi:id="_k_CQwE9wEeu-A4ATkO9ZBA">
+    <contextParameter comment="" name="Olympics_ADM_authenticationType" prompt="Olympics_ADM_authenticationType?" promptNeeded="false" type="id_String" value="BASIC" xmi:id="_k_CQwU9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_account" prompt="Olympics_ADM_account?" promptNeeded="false" type="id_String" value="Keyrus" xmi:id="_k_CQwk9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_region" prompt="Olympics_ADM_region?" promptNeeded="false" type="id_String" value="AWS_US_EAST_1" xmi:id="_k_CQw09wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_loginTimeout" prompt="Olympics_ADM_loginTimeout?" promptNeeded="false" type="id_Integer" value="15" xmi:id="_k_CQxE9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_keyAlias" prompt="Olympics_ADM_keyAlias?" promptNeeded="false" type="id_String" value="" xmi:id="_k_CQxU9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_warehouse" prompt="Olympics_ADM_warehouse?" promptNeeded="false" type="id_String" value="" xmi:id="_k_CQxk9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_db" prompt="Olympics_ADM_db?" promptNeeded="false" type="id_String" value="DWH_OLYMPICS_HFL" xmi:id="_k_CQx09wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_customRegionID" prompt="Olympics_ADM_customRegionID?" promptNeeded="false" type="id_String" value="" xmi:id="_k_CQyE9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_role" prompt="Olympics_ADM_role?" promptNeeded="false" type="id_String" value="" xmi:id="_k_CQyU9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_userPassword_password" prompt="Olympics_ADM_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Mi1QTySVpGW2gRISUUCLbgHZOs500dGTJIMHqAPKJ1Bgq+eFu9Id5rzb9KBBQ+nf" xmi:id="_k_CQyk9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_jdbcParameters" prompt="Olympics_ADM_jdbcParameters?" promptNeeded="false" type="id_String" value="" xmi:id="_k_CQy09wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_schemaName" prompt="Olympics_ADM_schemaName?" promptNeeded="false" type="id_String" value="ODS" xmi:id="_k_CQzE9wEeu-A4ATkO9ZBA"/>
+    <contextParameter comment="" name="Olympics_ADM_userPassword_userId" prompt="Olympics_ADM_userPassword_userId?" promptNeeded="false" type="id_String" value="FLAN" xmi:id="_k_CQzU9wEeu-A4ATkO9ZBA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_167f9147-4e42-4c35-9ae3-67287789541e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>o8hAnAJVBKoBy7xf56smnQKVEBeGxK6MGyqmQSm2sa3Q1gihM5Xm2/bhE3dul9uMQL5P4SfHwsiH
+2Cmc9DM2hQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ea04a881-78a8-4a44-aabb-ff111a68499d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AlUH28QugUFjIjwnlUqqekKIFcDHJEp1ZNiuoOtgehUZeBCMFH/DDK/EXcKq8nx4qyGV3xP87rnD
+kQPk7UjGJg==</DigestValue></Reference></SignedInfo><SignatureValue>UU5Y+d8+mVhFfK+nEGkC7yxzQsKm86RwyqofoFg9nsfNNitFuLdbQBvG7kUie6d+YrnczQVbKU1g
+BJvdHJw5TwZBprGleyMefyXLIYC7fyRG5cH3LBcQF5IxoZPdDAKBH8r3T+hTfgw905+CeXqjCCCw
+4p4bzOVNEdqmZtQVFFOf5pVcZH0gm0mcLkRUxU/VtzJrqpZNSLja4hY2UW4OIH3X6qD6xPu2zbKw
+A2V002PWEehSdTztj1Tp/aMWauvOYvhRd1fF+eiNcckWRmgvcoxP/PDwmpikbKCyqRNU0Q6qwbHR
+t9Z6swvy4wSJ7ENCK4KCueOH6oTpWveWyg169w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -40,4 +57,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_23d113ea-1733-42c4-ada1-a4fd232b7500" Target="#_e661e2b6-d330-4b00-b057-d7b219b19096"><Timestamp>2021-01-05 16:08:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ea04a881-78a8-4a44-aabb-ff111a68499d" Target="#_167f9147-4e42-4c35-9ae3-67287789541e"><Timestamp>2021-01-05 16:10:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
