@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_NDQeoFtZEeuASfFU3sb3pg" xmi:version="2.0">
+  <contextParameter comment="" name="OLYMPICS_ADM1_jdbcParameters" prompt="OLYMPICS_ADM1_jdbcParameters?" promptNeeded="false" type="id_String" value="" xmi:id="_NDRFsFtZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_userPassword_password" prompt="OLYMPICS_ADM1_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:khdgfAYCQWk9FxyM93a1siH8p7EyrDCWgbTFMJ1TAz0m/utpoyVhHnIMVYci0IyS" xmi:id="_NDRFsVtZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_loginTimeout" prompt="OLYMPICS_ADM1_loginTimeout?" promptNeeded="false" type="id_Integer" value="15" xmi:id="_NDRFsltZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_role" prompt="OLYMPICS_ADM1_role?" promptNeeded="false" type="id_String" value="" xmi:id="_NDRFs1tZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_schemaName" prompt="OLYMPICS_ADM1_schemaName?" promptNeeded="false" type="id_String" value="ADM" xmi:id="_NDRFtFtZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_authenticationType" prompt="OLYMPICS_ADM1_authenticationType?" promptNeeded="false" type="id_String" value="BASIC" xmi:id="_NDRFtVtZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_userPassword_userId" prompt="OLYMPICS_ADM1_userPassword_userId?" promptNeeded="false" type="id_String" value="FLAN" xmi:id="_NDRFtltZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_warehouse" prompt="OLYMPICS_ADM1_warehouse?" promptNeeded="false" type="id_String" value="" xmi:id="_NDST0FtZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_db" prompt="OLYMPICS_ADM1_db?" promptNeeded="false" type="id_String" value="DWH_OLYMPICS_HFL" xmi:id="_NDST0VtZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_customRegionID" prompt="OLYMPICS_ADM1_customRegionID?" promptNeeded="false" type="id_String" value="" xmi:id="_NDST0ltZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_region" prompt="OLYMPICS_ADM1_region?" promptNeeded="false" type="id_String" value="AWS_US_EAST_1" xmi:id="_NDST01tZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_account" prompt="OLYMPICS_ADM1_account?" promptNeeded="false" type="id_String" value="Keyrus" xmi:id="_NDST1FtZEeuASfFU3sb3pg"/>
+  <contextParameter comment="" name="OLYMPICS_ADM1_keyAlias" prompt="OLYMPICS_ADM1_keyAlias?" promptNeeded="false" type="id_String" value="" xmi:id="_NDST1VtZEeuASfFU3sb3pg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_98f4bfcc-cd69-4d74-b09d-1c31eb1649cd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iFzGQtkio+RnoZwHMjR3CICVrgGQemUzTQ+ljIxwdLJ/Hpo1frVHCGfG1RHgAf+Mp+pB2LXZ8z1I
+c7z7zWGMeg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ec0bb8ad-9097-455d-b664-7d8b099143b7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zKgFLPNYEshTsCy7YjCL88yUV1+RAiUJ0AkFcpfarvJx6qG0EB2hZSDNVgWuhqmVYUZ0drU3dANO
+8WlNuEF8FA==</DigestValue></Reference></SignedInfo><SignatureValue>KZE2XLOSYDNgjF2NSgVBox6SBw+0sctVHR+1XtLnzySMQx9jdSCd99xct/raAlmzyQQGjW1eNbYC
+pwaKjmWkAHHYHnWC4GhLiaWyS3/cLQpz0c/zLhkUjSwPfMgpOvyPwqGQToP2MsuiHVPC19hVPwsZ
+B6qK6/meQnHPeso0M3QIi5RVjrYu5r8Xk3Liml0RMuRW9fWrFmzhgg0XUIEdEPI3tEryYBkXI5iD
+Rs9MXWYPM0MEjUmnueZgWfJFMGYFOYk3vwr5scYe5owbXnWs1IUfaj7poUACF71eDVEI85EMEM+D
+ADcwpSNg7LHkookpbmIupioeCHaORQZbuKlj2A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ec0bb8ad-9097-455d-b664-7d8b099143b7" Target="#_98f4bfcc-cd69-4d74-b09d-1c31eb1649cd"><Timestamp>2021-01-20 19:53:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
