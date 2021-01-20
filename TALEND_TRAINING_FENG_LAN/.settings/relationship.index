@@ -72,10 +72,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_LeUzcE9sEeu-A4ATkO9ZBA - ADMIN_LOAD_CONTROL",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
