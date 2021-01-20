@@ -12,7 +12,6 @@
     <module>code/routines</module>
     <module>code/beans</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
-    <module>jobs/process/olympicsload_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
